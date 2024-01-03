@@ -14,6 +14,13 @@ data.dtypes
 
 data.tail()
 
+data=data.sort_values(by='year', ascending=True)
+
+
+
+data.to_csv("./data/processed/us-box-office_clean.csv",index=False)
+
+
 
 # Load the inflation rates data
 inflation_rates_data = pd.read_csv("./data/raw/inflation_rates.csv")
