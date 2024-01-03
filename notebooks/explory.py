@@ -55,7 +55,7 @@ presentation_df["box_office_inf_adj"]=presentation_df["box_office_inf_adj"]/1000
 
 presentation_df.columns=["Year","Box Office ($B)"]
 
-presentation_df.to_csv("./data/processed/us-box-office_presentation.csv")
+presentation_df.to_csv("./data/processed/us-box-office_presentation.csv",index=False)
 
 
 

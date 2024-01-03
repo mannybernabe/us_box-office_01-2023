@@ -1,6 +1,8 @@
 
 # Inflation Adjusted Box Office Revenue Analysis
 
+![Main Presentation Image](https://github.com/mannybernabe/us_box-office_01-2023/blob/main/US%20Box%20Office%20Inflation%20Adjusted.png)
+
 ## Project Overview
 This project involves analyzing box office revenues over several years and adjusting them for inflation using actual CPI rates. The goal is to understand the real value of box office revenues when accounting for the changes in purchasing power over the years.
 
@@ -38,3 +40,7 @@ The analysis script performs the following steps:
 
 ### Inflation Adjusted Box Office Revenue (Bar Chart)
 ![Inflation Adjusted Box Office Revenue Over Years - Bar Chart](https://github.com/mannybernabe/us_box-office_01-2023/blob/main/output/figures/bar_chart.png "Bar Chart")
+
+
+## Note
+The original source data for this analysis was obtained from [Box Office Mojo](https://www.boxofficemojo.com/year/).
