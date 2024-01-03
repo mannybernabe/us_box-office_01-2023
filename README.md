@@ -29,3 +29,12 @@ The analysis script performs the following steps:
 
 
 
+
+
+## Analysis Visualizations
+
+### Inflation Adjusted Box Office Revenue (Line Chart)
+![Inflation Adjusted Box Office Revenue Over Years - Line Chart](https://github.com/mannybernabe/us_box-office_01-2023/blob/main/output/figures/line_chart.png "Line Chart")
+
+### Inflation Adjusted Box Office Revenue (Bar Chart)
+![Inflation Adjusted Box Office Revenue Over Years - Bar Chart](https://github.com/mannybernabe/us_box-office_01-2023/blob/main/output/figures/bar_chart.png "Bar Chart")
