@@ -44,6 +44,22 @@ def adjust_for_inflation(row):
 # Apply inflation adjustment
 merged_data['inflation_adjusted_box_office'] = merged_data.apply(adjust_for_inflation, axis=1)
 
+
+presentation_df=merged_data[["year","inflation_adjusted_box_office"]]
+
+presentation_df=presentation_df.sort_values(by='year', ascending=True)
+
+presentation_df.columns=["year","box_office_inf_adj"]
+
+presentation_df["box_office_inf_adj"]=presentation_df["box_office_inf_adj"]/1000000000
+
+presentation_df.columns=["Year","Box Office ($B)"]
+
+presentation_df.to_csv("./data/processed/us-box-office_presentation.csv")
+
+
+
+
 # Creating a line chart with the inflation-adjusted data
 plt.figure(figsize=(10, 6))
 plt.plot(merged_data['year'], merged_data['inflation_adjusted_box_office'], marker='o', color='b')
